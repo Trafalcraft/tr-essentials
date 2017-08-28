@@ -1,0 +1,44 @@
+name: essentials
+version: 1.0
+description: copy essentials
+author: ludo
+ 
+main: com.trafalcraft.ludo.Main.Main
+ 
+commands:
+  sethome:
+    description: sauvegarde pas position du joueur comme position du home
+    aliases: []
+  home:
+    description: teleporte le joueur a son home
+    aliases: []
+  bedhome:
+    description: teleporte le joueur a son bedhome
+    aliases: [homebed]
+  setspawn:
+    description: set le spawn de la map
+    aliases: []
+  spawn:
+    description: teleport au spawn de la map
+    aliases: []
+  setjail:
+    description: créer un nouveau jail
+    aliases: []
+  jail:
+    description: jail la personne visé
+    aliases: []
+  unjail:
+    description: unjail la personne visé
+    aliases: []
+  deletejail:
+    description: detruit le jail
+    aliases: []
+  setwarp:
+    description: créer un nouveau warp
+    aliases: []
+  deletewarp:
+    description: detruit le warp
+    aliases: []
+  warp:
+    description: téléporte au warp visé
+    aliases: []
